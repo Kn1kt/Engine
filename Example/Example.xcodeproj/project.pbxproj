@@ -20,6 +20,7 @@
 		38ECF34F292848B200A7973C /* UserInterfaceIdiomExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ECF34E292848B200A7973C /* UserInterfaceIdiomExamples.swift */; };
 		38F3B4A92BA566F000374669 /* StyleContextExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F3B4A82BA566F000374669 /* StyleContextExamples.swift */; };
 		38F8DFAA2CFE2BB400705B02 /* EngineMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 38F8DFA92CFE2BB400705B02 /* EngineMacros */; };
+		F39EB8EC303B780A005EFC7B /* CrashWithMisalignedRawPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39EB8EB303B780A005EFC7B /* CrashWithMisalignedRawPointer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		38ECF3442926D23A00A7973C /* Engine */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Engine; path = ..; sourceTree = "<group>"; };
 		38ECF34E292848B200A7973C /* UserInterfaceIdiomExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceIdiomExamples.swift; sourceTree = "<group>"; };
 		38F3B4A82BA566F000374669 /* StyleContextExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleContextExamples.swift; sourceTree = "<group>"; };
+		F39EB8EB303B780A005EFC7B /* CrashWithMisalignedRawPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashWithMisalignedRawPointer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				385C289629209E5C00E0A600 /* ExampleApp.swift */,
 				385C289829209E5C00E0A600 /* ContentView.swift */,
+				F39EB8EB303B780A005EFC7B /* CrashWithMisalignedRawPointer.swift */,
 				381B75C72920C8F100049EBB /* VersionedViewExamples.swift */,
 				381B75C92920CC2E00049EBB /* ViewStyleExamples.swift */,
 				38F3B4A82BA566F000374669 /* StyleContextExamples.swift */,
@@ -191,6 +194,7 @@
 				38ECF34F292848B200A7973C /* UserInterfaceIdiomExamples.swift in Sources */,
 				385C289929209E5C00E0A600 /* ContentView.swift in Sources */,
 				381B75D02920D80D00049EBB /* StaticConditionalExamples.swift in Sources */,
+				F39EB8EC303B780A005EFC7B /* CrashWithMisalignedRawPointer.swift in Sources */,
 				381B75C82920C8F100049EBB /* VersionedViewExamples.swift in Sources */,
 				381B75CA2920CC2E00049EBB /* ViewStyleExamples.swift in Sources */,
 				385C289729209E5C00E0A600 /* ExampleApp.swift in Sources */,
@@ -353,7 +357,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
@@ -400,7 +404,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
