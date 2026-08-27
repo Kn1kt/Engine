@@ -15,7 +15,6 @@ struct CrashWithMisalignedRawPointer: View {
           Text("Detail View")
             .toolbar {
               ToolbarItem(placement: .title) {
-                StepperView2
                 StepperView2 {
                   Text("\(stepper)")
                 } onIncrement: {
